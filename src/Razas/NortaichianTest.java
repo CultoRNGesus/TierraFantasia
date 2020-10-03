@@ -24,7 +24,7 @@ public class NortaichianTest {
 		Nort.recibirAtaque(1);
 		Nort.recibirAtaque(1);
 		Nort.atacar(otro);
-		assertEquals(otro.salud,85);
+		assertEquals(otro.salud,0);
 	}
 	
 	@Test
