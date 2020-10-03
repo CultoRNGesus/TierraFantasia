@@ -27,13 +27,12 @@ public class Nortaichian extends Raza {
 			} else {
 				otro.recibirAtaque(this.danoAtaque);
 			}
-			this.salud+=3;
+			this.salud+=this.saludMax*0.03;
 		}
 	}
 
 	public void descansar() {
 		super.descansar();
-		this.salud += this.saludMax * 0.03;
 		this.ataquesCargados = 3;
 	}
 
