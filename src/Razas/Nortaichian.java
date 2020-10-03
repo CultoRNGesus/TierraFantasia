@@ -1,7 +1,5 @@
 package Razas;
 
-import Misc.Punto;
-
 public class Nortaichian extends Raza {
 
 	private int saludMax = 64;
