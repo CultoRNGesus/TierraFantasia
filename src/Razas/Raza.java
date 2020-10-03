@@ -6,10 +6,8 @@ public abstract class Raza {
 	private Punto posicion;
 	private int danoAtaque;
 	private static int turno = 0 ;
-	
-		
-		
-	public Raza(int salud, int saludMax, Punto posicion, int danoAtaque) {
+			
+	public Raza(int salud, Punto posicion, int danoAtaque) {
 		this.salud = salud;
 		this.posicion = posicion;
 		this.danoAtaque = danoAtaque;
