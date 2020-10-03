@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import Misc.Punto;
 
 public class NortaichianTest {
 	
