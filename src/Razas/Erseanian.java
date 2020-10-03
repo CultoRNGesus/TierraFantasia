@@ -32,7 +32,7 @@ public class Erseanian extends Raza {
 			return;
 		}
 		double dist = this.posicion.distAPunto(otro.posicion);
-		if (this.salud > 0 && otro.getSalud() > 0 && dist >= rangoMin && dist <= rangoMax) {
+		if (this.salud > 0 && otro.salud > 0 && dist >= rangoMin && dist <= rangoMax) {
 			otro.recibirAtaque(this.danoAtaque + Math.pow(3, this.ataquesRecibidos));
 		}
 		
