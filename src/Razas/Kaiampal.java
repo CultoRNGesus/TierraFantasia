@@ -26,7 +26,7 @@ public class Kaiampal extends Raza{
 
 	@Override
 	public void recibirAtaque(double dano) {
-		salud -= dano;
+		super.recibirAtaque(dano);
 		salud += super.salud * 0.10;
 	}
 	
