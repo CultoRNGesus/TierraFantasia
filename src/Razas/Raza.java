@@ -2,13 +2,11 @@ package Razas;
 
 public abstract class Raza {
 
-	private double salud;
+	private int salud;
 	private Punto posicion;
-	private double danoAtaque;
+	private int danoAtaque;
 	private static int turno = 0 ;
-	
-		
-		
+			
 	public Raza(int salud, Punto posicion, int danoAtaque) {
 		this.salud = salud;
 		this.posicion = posicion;
