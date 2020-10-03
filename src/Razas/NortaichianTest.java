@@ -15,14 +15,6 @@ public class NortaichianTest {
 		assertEquals(Nort.salud,54);
 	}
 	
-	@Test
-	void TestDescansar() {
-		Nortaichian Nort = new Nortaichian();
-		Nort.recibirAtaque(64*0.03);
-		Nort.descansar();
-		assertEquals(Nort.salud,63);
-		
-	}
 	
 	@Test
 	void AtaquesCargados() {
