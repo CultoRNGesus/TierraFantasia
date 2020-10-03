@@ -2,12 +2,13 @@ package Razas;
 
 public class Gniadampal extends Raza {
 
-	private double saludMax;
+	private double saludMax=57;
 	private boolean puedeAtacar;
 	private static int rangoAtaque = 18;
 
 	public Gniadampal() {
 		super(57, new Punto(0, 0), 103);
+		puedeAtacar=true;
 	}
 
 	@Override
