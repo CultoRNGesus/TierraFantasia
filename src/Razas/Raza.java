@@ -2,14 +2,14 @@ package Razas;
 
 public abstract class Raza {
 
-	private int salud;
+	private double salud;
 	private Punto posicion;
-	private int danoAtaque;
+	private double danoAtaque;
 	private static int turno = 0 ;
 	
 		
 		
-	public Raza(int salud, int saludMax, Punto posicion, int danoAtaque) {
+	public Raza(int salud, Punto posicion, int danoAtaque) {
 		this.salud = salud;
 		this.posicion = posicion;
 		this.danoAtaque = danoAtaque;
