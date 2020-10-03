@@ -31,7 +31,7 @@ public class Erseanian extends Raza {
 			this.turnosPiedra--;
 			return;
 		}
-		double dist = this.getPosicion().distAPunto(otro.getPosicion());
+		double dist = this.posicion.distAPunto(otro.posicion);
 		if (this.salud > 0 && otro.getSalud() > 0 && dist >= rangoMin && dist <= rangoMax) {
 			otro.recibirAtaque(this.danoAtaque + Math.pow(3, this.ataquesRecibidos));
 		}
