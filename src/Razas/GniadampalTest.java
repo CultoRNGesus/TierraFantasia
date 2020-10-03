@@ -19,7 +19,7 @@ class GniadampalTest {
 	void AtacaTest() {
 		Raza gnian = new Gniadampal();
 		Raza otro=new RazaParaTest();
-		otro.atacar(gnian);
-		assertEquals(gnian.salud,37);
+		gnian.atacar(otro);
+		assertEquals(otro.salud,97);
 	}
 }
