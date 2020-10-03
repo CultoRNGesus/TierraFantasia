@@ -8,6 +8,7 @@ public abstract class Raza {
     protected Punto posicion;
     protected double danoAtaque;
     protected static int turno = 0 ;
+    private int turnoVeneno;
 
     public Raza(int salud, Punto posicion, int danoAtaque) {
         this.salud = salud;
