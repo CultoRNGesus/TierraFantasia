@@ -27,7 +27,7 @@ public class Nortaichian extends Raza {
 			} else {
 				otro.recibirAtaque(this.danoAtaque);
 			}
-
+			this.salud+=3;
 		}
 	}
 
