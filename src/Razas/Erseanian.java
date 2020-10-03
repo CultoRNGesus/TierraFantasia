@@ -1,6 +1,5 @@
 package Razas;
 
-import Misc.Punto;
 
 public class Erseanian extends Raza {
 
