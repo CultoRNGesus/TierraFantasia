@@ -22,7 +22,7 @@ public class Nortaichian extends Raza {
 	public void atacar(Raza otro) {
 		super.atacar(otro);
 		int dist = (int) this.posicion.distAPunto(otro.posicion);
-		if (this.salud > 0 && otro.getSalud() > 0 && dist >= rangoMin && dist <= rangoMax) {
+		if (this.salud > 0 && otro.salud > 0 && dist >= rangoMin && dist <= rangoMax) {
 			if (this.ataquesCargados > 0) {
 				otro.recibirAtaque(this.danoAtaque * 4);
 				this.ataquesCargados--;
