@@ -6,6 +6,7 @@ public abstract class Raza {
 	protected Punto posicion;
 	protected double danoAtaque;
 	protected static int turno = 0 ;
+	protected boolean muerto=false;
 			
 	public Raza(int salud, Punto posicion, int danoAtaque) {
 		this.salud = salud;
@@ -29,6 +30,13 @@ public abstract class Raza {
 		turno++;
 	}
 	
-	public void recibirAtaque( double dano) {}
+	public void recibirAtaque(double dano) {
+        if(salud - dano <= 0) {
+            salud = 0;
+            muerto = true;
+        }
+        else
+            salud -= dano;
+    }
 		
 }
